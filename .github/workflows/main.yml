@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run a one line script
-        run: echo Hello BF!
+        run: |
+          echo Hello BF!
+          date
 
   
